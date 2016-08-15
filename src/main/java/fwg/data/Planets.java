@@ -67,7 +67,7 @@ public class Planets
         data_overworld.add(new PlanetData(Blocks.stone, Blocks.gold_ore, 15, 8, 5));
         data_overworld.add(new PlanetData(Blocks.stone, Blocks.redstone_ore, 15, 7, 5));
         data_overworld.add(new PlanetData(Blocks.stone, Blocks.diamond_ore, 15, 7, 5));
-
+	data_overworld.add(new PlanetData(Blocks.stone, Blocks.lapis_ore, 15, 8, 5));
         data_overworld.add(new PlanetData(Blocks.glowstone, Blocks.glowstone, 15, 5, 10));
         data_overworld.add(new PlanetData(Blocks.glass, Blocks.water, 15, 8, 5));
         data_overworld.add(new PlanetData(Blocks.glass, Blocks.lava, 15, 8, 3));
@@ -75,6 +75,11 @@ public class Planets
         // Add modded ores for Overworld
         if(Loader.isModLoaded("ThermalFoundation")) {
             data_overworld.add(new PlanetData(Blocks.stone, Block.getBlockFromItem(BlockOre.oreCopper.getItem()), 15, 9, 10));
+	    data_overworld.add(new PlanetData(Blocks.stone, Block.getBlockFromItem(BlockOre.oreTin.getItem()), 15, 9, 10));
+            data_overworld.add(new PlanetData(Blocks.stone, Block.getBlockFromItem(BlockOre.oreSilver.getItem()), 15, 8, 5));
+            data_overworld.add(new PlanetData(Blocks.stone, Block.getBlockFromItem(BlockOre.oreLead.getItem()), 15, 8, 5));
+            data_overworld.add(new PlanetData(Blocks.stone, Block.getBlockFromItem(BlockOre.oreNickel.getItem()), 15, 7, 5));
+            data_overworld.add(new PlanetData(Blocks.stone, Block.getBlockFromItem(BlockOre.orePlatinum.getItem()), 12, 4, 5));
         }
 
         // Add all Nether PlanetData
