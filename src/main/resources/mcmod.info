@@ -9,9 +9,10 @@
   "updateUrl": "",
   "authors": [
     "Ted80",
-    "necanthrope"
+    "necanthrope",
+    "sunshinehunter"
   ],
-  "credits": "By Ted80, enhanced by Necanthrope",
+  "credits": "By Ted80, enhanced by Necanthrope and sunshinehunter",
   "screenshots": [],
   "dependencies": []
 }
